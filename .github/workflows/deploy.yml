@@ -31,7 +31,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
-          branch: main
+          branch: gh-pages
           clean: true # Isso vai remover o código-fonte da raiz e deixar apenas o site funcionando
 
 
